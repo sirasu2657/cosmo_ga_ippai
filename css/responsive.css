@@ -14,10 +14,12 @@ display: block;
   }
 
   img{
+    width: 200px;
     margin: auto auto 5% auto;
   }
 
 }
+
 
 
 
