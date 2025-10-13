@@ -7,20 +7,54 @@
 
 body{
   background-color: #333399;
-  margin: 0 0 10% 0;
+  margin: 0;
   padding: 0;
   font-family: Russo One;
+  height:100%;
+}
+
+@media screen and (max-width: 990px) {
+  body{
+    font-size: 2em;
+  }
+}
+
+.footer{
+  margin: 5% 0 0 0;
+  font-size: 0.5em;
+  text-align: center;
+  color: white;
+  height: auto;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 990px) {
+  .footer{
+    margin: 5% 0;
+  }
 }
 
 h1{
   margin: 5%;
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 990px) {
+  h1{
+    font-size: 3em;
+  }
 }
 
 /*改行位置*/
 .sp {
 display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .sp {
+display: block;
+  }
 }
 
 .header{
@@ -43,6 +77,23 @@ display: none;
   letter-spacing: 0.1em;
 }
 
+@media screen and (max-width: 990px) {
+  .container{
+      margin: 0 2%;
+    padding: 1%;
+  }
+}
+
+.sns{
+  color: #00bfff;
+}
+
+@media screen and (max-width: 990px) {
+  .sns{
+    font-size: 1.5em;
+  }
+}
+
 a{
   color: white;
   letter-spacing: 0.1em;
@@ -54,6 +105,13 @@ img{
   border: 2px solid white;
 }
 
+@media screen and (max-width: 990px) {
+  img{
+    width: 300px;
+    margin: auto auto 5% auto;
+  }
+}
+
 .illust{
   margin: 3% 3%;
   display: flex;
@@ -62,8 +120,14 @@ img{
   text-align: center;
 }
 
+@media screen and (max-width: 990px) {
+  .illust{
+    margin: 3% 5%;
+font-size: 1.3em;
+  }
+}
+
 .illust:hover{
   transform: scale(1.05);
   transition:0.1s all;
 }
-
