@@ -1,0 +1,68 @@
+/*フォント*/
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color: #333399;
+  margin: 0 0 10% 0;
+  padding: 0;
+  font-family: Russo One;
+}
+
+h1{
+  margin: 5%;
+  font-size: 3em;
+  letter-spacing: 0.3em;
+}
+
+/*改行位置*/
+.sp {
+display: none;
+}
+
+.header{
+  width: 100%;
+  margin: auto auto 5% auto;
+  padding: 2% 0;
+  color: white;
+  text-align: center;
+  background-color: #2b2b2b;
+  font-weight: bold;
+}
+
+.container{
+  margin: 0 5%;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;       /* はみ出たら折り返す */
+  letter-spacing: 0.1em;
+}
+
+a{
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+img{
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.illust{
+  margin: 3% 3%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.illust:hover{
+  transform: scale(1.05);
+  transition:0.1s all;
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 850px) {
+  h1{
+    margin: 2%;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+  }
+
+  .sp {
+display: block;
+  }
+
+  .container{
+    font-size: 0.7em;
+  }
+
+  img{
+    width: 100px;
+    margin: auto auto 5% auto;
+  }
+
+}
