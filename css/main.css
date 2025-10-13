@@ -13,7 +13,7 @@ body{
   height:100%;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   body{
     font-size: 2em;
   }
@@ -28,7 +28,7 @@ body{
   font-family: sans-serif;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   .footer{
     margin: 5% 0;
   }
@@ -40,7 +40,7 @@ h1{
   letter-spacing: 0.3em;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   h1{
     font-size: 3em;
   }
@@ -51,7 +51,7 @@ h1{
 display: none;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   .sp {
 display: block;
   }
@@ -77,7 +77,7 @@ display: block;
   letter-spacing: 0.1em;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   .container{
       margin: 0 2%;
     padding: 1%;
@@ -88,7 +88,7 @@ display: block;
   color: #00bfff;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   .sns{
     font-size: 1.5em;
   }
@@ -105,7 +105,7 @@ img{
   border: 2px solid white;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   img{
     width: 300px;
     margin: auto auto 5% auto;
@@ -120,7 +120,7 @@ img{
   text-align: center;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
   .illust{
     margin: 3% 5%;
 font-size: 1.3em;
