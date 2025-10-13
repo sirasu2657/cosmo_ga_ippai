@@ -1,7 +1,7 @@
 @media screen and (min-width: 500px) {
   h1{
     margin: 2%;
-    font-size: 2em;
+    font-size: 5em;
     letter-spacing: 0.3em;
   }
 
@@ -10,7 +10,7 @@ display: block;
   }
 
   .container{
-    font-size: 0.7em;
+    font-size: 1em;
   }
 
   img{
@@ -19,6 +19,7 @@ display: block;
   }
 
 }
+
 
 
 
