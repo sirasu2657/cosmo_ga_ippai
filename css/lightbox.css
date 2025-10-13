@@ -157,10 +157,16 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 80%;
   float: left;
   text-align: left;
   line-height: 1.1em;
+}
+
+@media screen and (max-width: 990px) {
+  .lb-data .lb-details {
+    width: 80%;
+  }
 }
 
 .lb-data .lb-caption {
@@ -172,7 +178,7 @@ body.lb-disable-scrolling {
 
 @media screen and (max-width: 990px) {
   .lb-data .lb-caption {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -215,8 +221,8 @@ body.lb-disable-scrolling {
   .lb-data .lb-close {
     display: block;
     float: right;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: url(../images/close_big.png) top right no-repeat;
     text-align: right;
     outline: none;
