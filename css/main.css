@@ -98,21 +98,21 @@ a{
   letter-spacing: 0.1em;
 }
 
-img{
+.container img{
   width: 150px;
   border-radius: 10px;
   border: 2px solid white;
 }
 
 @media screen and (max-width: 990px) {
-  img{
+.container img{
     width: 200px;
     margin: auto auto 5% auto;
   }
 }
 
 @media screen and (max-width: 500px) {
-  img{
+.container img{
     width: 100px;
     margin: auto auto 5% auto;
   }
@@ -144,4 +144,32 @@ font-size: 0.8em;
 .illust:hover{
   transform: scale(1.05);
   transition:0.1s all;
+}
+
+.rough{
+  width: 100%;
+  padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;       /* はみ出たら折り返す */
+}
+
+.rough img{
+  width: 400px;
+    margin: 0;
+}
+
+@media screen and (max-width: 990px) {
+.rough img{
+    width: 200px;
+        margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.container img{
+  width: 200px;
+      margin: 0;
+  }
 }
